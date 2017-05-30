@@ -35,6 +35,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		605ABB991EDDB27200CE162E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60E5BDBD1EDBFC96000ED9CA /* AppDelegate.swift */,
+				60E5BDC41EDBFC96000ED9CA /* Assets.xcassets */,
+				60E5BDC61EDBFC96000ED9CA /* LaunchScreen.storyboard */,
+				60E5BDC91EDBFC96000ED9CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		60E5BDB11EDBFC96000ED9CA = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +65,9 @@
 		60E5BDBC1EDBFC96000ED9CA /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				60E5BDBD1EDBFC96000ED9CA /* AppDelegate.swift */,
+				605ABB991EDDB27200CE162E /* Supporting Files */,
 				60E5BDBF1EDBFC96000ED9CA /* ViewController.swift */,
 				60E5BDC11EDBFC96000ED9CA /* Main.storyboard */,
-				60E5BDC41EDBFC96000ED9CA /* Assets.xcassets */,
-				60E5BDC61EDBFC96000ED9CA /* LaunchScreen.storyboard */,
-				60E5BDC91EDBFC96000ED9CA /* Info.plist */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -301,6 +309,7 @@
 				60E5BDCE1EDBFC96000ED9CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
