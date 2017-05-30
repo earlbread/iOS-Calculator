@@ -9,5 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+
+    @IBAction func touchDigit(_ sender: UIButton) {
+        let digit = sender.currentTitle!
+        print("\(digit) was called")
+    }
+
 }
 
