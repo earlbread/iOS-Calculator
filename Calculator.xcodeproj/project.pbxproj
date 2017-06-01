@@ -12,6 +12,7 @@
 		60E5BDC31EDBFC96000ED9CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E5BDC11EDBFC96000ED9CA /* Main.storyboard */; };
 		60E5BDC51EDBFC96000ED9CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E5BDC41EDBFC96000ED9CA /* Assets.xcassets */; };
 		60E5BDC81EDBFC96000ED9CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E5BDC61EDBFC96000ED9CA /* LaunchScreen.storyboard */; };
+		60EDD27A1EE0547600325D0D /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EDD2791EE0547600325D0D /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		60E5BDC41EDBFC96000ED9CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60E5BDC71EDBFC96000ED9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60E5BDC91EDBFC96000ED9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60EDD2791EE0547600325D0D /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				605ABB991EDDB27200CE162E /* Supporting Files */,
 				60E5BDBF1EDBFC96000ED9CA /* ViewController.swift */,
 				60E5BDC11EDBFC96000ED9CA /* Main.storyboard */,
+				60EDD2791EE0547600325D0D /* CalculatorBrain.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60EDD27A1EE0547600325D0D /* CalculatorBrain.swift in Sources */,
 				60E5BDC01EDBFC96000ED9CA /* ViewController.swift in Sources */,
 				60E5BDBE1EDBFC96000ED9CA /* AppDelegate.swift in Sources */,
 			);
