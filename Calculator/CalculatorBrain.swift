@@ -19,9 +19,12 @@ struct CalculatorBrain {
     }
 
     private var operations: Dictionary<String, Operation> = [
-        "π": Operation.constant(Double.pi),
-        "√": Operation.unaryOperation(sqrt),
+        "±": Operation.unaryOperation({-$0}),
+        "+": Operation.binaryOperation({ $0 + $1 }),
         "×": Operation.binaryOperation({ $0 * $1 }),
+        "÷": Operation.binaryOperation({ $0 / $1 }),
+        "−": Operation.binaryOperation({ $0 - $1 }),
+        "%": Operation.binaryOperation({ $0.truncatingRemainder(dividingBy: $1) }),
         "=": Operation.equals
     ]
 
