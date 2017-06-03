@@ -225,7 +225,7 @@
                                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                                 <state key="normal" title="."/>
                                                                 <connections>
-                                                                    <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5qQ-G5-gLr"/>
+                                                                    <action selector="addFloatingPoint:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GTE-rQ-lWC"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yud-7a-MXn">

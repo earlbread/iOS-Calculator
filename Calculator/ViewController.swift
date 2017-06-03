@@ -45,6 +45,13 @@ class ViewController: UIViewController {
         brain.clearState()
     }
 
+    @IBAction func addFloatingPoint(_ sender: UIButton) {
+        if display.text!.range(of: ".") == nil {
+            display.text = display.text! + "."
+            userIsInMiddleOfTyping = true
+        }
+    }
+
     @IBAction func performOperation(_ sender: UIButton) {
         if userIsInMiddleOfTyping {
             brain.setOperand(displayValue)
