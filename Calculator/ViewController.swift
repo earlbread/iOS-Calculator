@@ -19,7 +19,10 @@ class ViewController: UIViewController {
 
         if userIsInMiddleOfTyping {
             let textCurrentlyInDisplay = display.text!
-            display.text = textCurrentlyInDisplay + digit
+
+            if textCurrentlyInDisplay != "0" || digit != "0" {
+                display.text = textCurrentlyInDisplay + digit
+            }
         } else {
             display.text = digit
             userIsInMiddleOfTyping = true
