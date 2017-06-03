@@ -37,6 +37,11 @@ class ViewController: UIViewController {
 
     private var brain = CalculatorBrain()
 
+    @IBAction func allClear(_ sender: UIButton) {
+        display.text = "0"
+        brain.clearState()
+    }
+
     @IBAction func performOperation(_ sender: UIButton) {
         if userIsInMiddleOfTyping {
             brain.setOperand(displayValue)

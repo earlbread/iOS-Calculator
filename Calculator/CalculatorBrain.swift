@@ -28,6 +28,11 @@ struct CalculatorBrain {
         "=": Operation.equals
     ]
 
+    mutating func clearState() {
+        accumulator = nil
+        pendingBinaryOperation = nil
+    }
+
     mutating func performOperation(_ symbol: String) {
         if let operation = operations[symbol] {
             switch operation {
